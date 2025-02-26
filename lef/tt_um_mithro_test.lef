@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO mag/tt_um_mithro_test
+MACRO tt_um_mithro_test
   CLASS BLOCK ;
-  FOREIGN mag/tt_um_mithro_test ;
+  FOREIGN tt_um_mithro_test ;
   ORIGIN 0.000 0.000 ;
   SIZE 145.360 BY 225.760 ;
   PIN clk
@@ -439,6 +439,6 @@ MACRO mag/tt_um_mithro_test
         RECT 7.000 5.000 9.000 220.760 ;
     END
   END VAPWR
-END mag/tt_um_mithro_test
+END tt_um_mithro_test
 END LIBRARY
 
